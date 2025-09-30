@@ -62,10 +62,9 @@ This repository supports the research study "Optimizing Personalized Neoadjuvant
      pip install torch==2.1.0+cu121 torchvision==0.16.0+cu121 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
     ```
     - **Start training**:You can modify parameters such as epoch and seed in the `train_class.py` file, and then run that file.
-    
     ```
     python train_class.py
-
+    ```
 3. Predict:
 
      - **prediction model**
